@@ -12,7 +12,7 @@ function YandexDiskUpload() {
 
         try {
             if (files.length > maxFilesCount) {
-                console.error(`Максимальное количество файлов для загрузки - ${maxFilesCount}`);
+                alert(`Максимальное количество файлов для загрузки - ${maxFilesCount}`);
                 return;
             }
 
